@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: primary
-        image: index.docker.io/sd40250/kube-v2:latest
+        image: index.docker.io/sd40250/kube-v2
         ports:
         - containerPort: 8000
         readinessProbe:
